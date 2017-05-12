@@ -1,3 +1,4 @@
 Activity
 10-May-2017 : Gone through the Assignment Document and trying to understand how to approach for good design using Java.
 11-May-2017 : Create GitHub Account and started codeing for this. Few Line of code I wrote.
+12-May-2017 : Wrote some java code and uploaded in Git hub
