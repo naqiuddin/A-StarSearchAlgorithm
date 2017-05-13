@@ -37,7 +37,8 @@ public class MainApp {
             System.out.println();
          }
 		
-		aStarSearch(objUtility.grid, srcMap,  destMap);	       
+		aStarSearch(objUtility.grid, srcMap,  destMap);	
+		AStar.AStar(objUtility.grid, srcMap,  destMap);
 
 	}	
 	////////////////////////////////////////////////////////////////////////////////////////////////////////
