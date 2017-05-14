@@ -7,8 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class FileReaderOperation {
-	
+public class FileReaderOperation {	
 	public List<String> readLargeMapFile(String filename){		
 		BufferedReader br=null;
 		FileReader fr=null;
@@ -52,7 +51,8 @@ public class FileReaderOperation {
 		String temp="";
 		char str=0;		
 		for(int i=0;i<records.size();i++){			
-			    temp=records.get(i);			    
+			    temp=records.get(i);
+			    System.out.println(temp);
 			    for(int j=0;j<temp.length();j++){
 			    	str=temp.charAt(j);
 			    	if(str== '@' ||str=='X'||str=='.'){				    		 
@@ -64,7 +64,7 @@ public class FileReaderOperation {
 			    	}else if(str=='~'){
 			    		object.grid[i][j]=0;
 			    	}else{
-			    		object.grid[i][j]=0;
+			    		object.grid[i][j]=-1;
 			    	}
 			    		
 			    }			 
